@@ -1,0 +1,217 @@
+/* Base styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f7f9;
+}
+
+/* Welcome page */
+.welcome-screen {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('/public/welcome-logo.png'); /* or the correct path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: right;   /* 👈 center horizontally */
+  align-items: center;       /* 👈 center vertically */
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Center content box */
+.right-box {
+  
+  padding-right: 15%;
+}
+.app {
+  background: white;
+  padding: 2rem;
+  margin: 3rem auto;
+  max-width: 800px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Large heading */
+.welcome-heading {
+  font-size: 5rem; /* 👈 Bigger text */
+  font-weight: bold;
+  line-height: 1.1;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+  color: #00f7ff;
+  margin-bottom: 2.5rem;
+}
+
+/* Stylish Enter button */
+.enter-btn {
+  padding: 1.5rem 4rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  background-color: #1e90ff;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease;
+}
+
+.enter-btn:hover {
+  background-color: #005bbb;
+  transform: scale(1.05);
+}
+
+
+
+/* Main app */
+.app {
+  background: white;
+  padding: 2rem;
+  margin: 3rem auto;
+  max-width: 800px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 26px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 20px;
+  color: #34495e;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.not-eligible {
+  color: #e74c3c;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #3498db;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.candidate-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.candidate-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 160px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07);
+  transition: transform 0.2s ease;
+}
+
+.candidate-card:hover {
+  transform: scale(1.05);
+}
+
+.candidate-card img {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.results {
+  margin-top: 40px;
+  padding: 30px;
+  background-color: #f5fafd;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.results h2 {
+  font-size: 2rem;
+  color: #1a3c6b;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.vote-results-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.vote-card {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 12px;
+  border: 2px solid #dceafc;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  width: 180px;
+  transition: transform 0.2s;
+}
+
+.vote-card:hover {
+  transform: scale(1.05);
+}
+
+.candidate-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.vote-count {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0077ff;
+}
+.total-voters-text {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1a3c6b;
+  margin-top: 30px;
+}
+
+.total-count {
+  color: #28a745; /* green */
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+
+
